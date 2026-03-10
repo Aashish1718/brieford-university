@@ -252,3 +252,67 @@ h3 {
 }
 
 /* Facilities */
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.facilities-col p {
+    padding: 0;
+}
+
+.facilities-col h3 {
+    margin-top: 1.6rem 0 1.5rem;
+    text-align: left;;
+}
+
+
+/* Testimonials */
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.testimonial-cols {
+    flex-basis: 44%;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #fff3f3;
+    padding: 2.5rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-cols img{
+    height: 4rem;
+    margin: 0 3rem 0 0.5rem;
+    border-radius: 50%;
+}
+
+.testimonial-cols  p {
+    padding: 0;
+}
+
+.testimonial-cols h3 {
+    margin-top: 1.5rem;
+    text-align: left;
+}
